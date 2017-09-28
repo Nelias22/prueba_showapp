@@ -23,3 +23,20 @@
   content: "|";
   padding-right: 0.3em;
 }
+
+.showCard{
+
+	display:block;
+	margin:1.5em;
+		
+
+}
+
+.showCard > img{
+	float:left;
+}
+
+.showCard > p{
+	float:right;
+	clear:right;
+}

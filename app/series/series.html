@@ -1,0 +1,11 @@
+<h3>TV Shows</h3>
+
+<div ng-repeat="show in shows">
+	<div class="showCard">
+	<img ng-src="https://image.tmdb.org/t/p/w92{{show.poster_path}}">
+	<p>{{show.name}}</p>
+	<p>TV Series | {{show.first_air_date | date}}</p>
+	<p>{{show.overview}} </p>
+	</div>
+
+</div>

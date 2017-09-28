@@ -1,0 +1,11 @@
+<h3>Movies</h3>
+
+<div ng-repeat="movie in movies">
+	<div class="showCard">
+	<img ng-src="https://image.tmdb.org/t/p/w92{{movie.poster_path}}">
+	<p>{{movie.title}}</p>
+	<p>Movie | {{movie.release_date | date}}</p>
+	<p>{{movie.overview}} </p>
+	</div>
+
+</div>
